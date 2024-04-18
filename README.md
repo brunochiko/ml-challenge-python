@@ -4,7 +4,7 @@ Repositório criado para o desafio de python do mercado livre. O código abaixo 
 
 ## 1) Percorrer uma lista de mais de 150 IDs de itens no serviço público:
 
-O resultado foi alcançado utilizando a lib requests do python. O código abaixo contém um loop que irá accessar a API várias vezes e buscar os produtos da lista 'termos' buscando 50 itens por vez até ter lido todos os items
+O resultado foi alcançado utilizando a lib requests do python. O código abaixo contém um loop que irá acessar a API várias vezes e buscar os produtos da lista 'termos' buscando 50 itens por vez até ter lido todos os itens
 
 ```python 
 import requests
@@ -44,7 +44,7 @@ for x in termos:
 
 ## 2) Para cada resultado, realize o GET by Item_Id correspondente ao recurso público: https://api.mercadolibre.com/items/{Item_Id} 
 
-Utilizando a lista de itens criada na etapa anterior, o código abaixo itera sobre a lista e para cada item da lista irá acessar a api de itens e concatenar o resultado em uma lista. Após concluir a cconstrução da lista converte a lista de dicionários em um dataframe do pandas e exporta o dataframe em CSV
+Utilizando a lista de itens criada na etapa anterior, o código abaixo itera sobre a lista e para cada item da lista irá acessar a api de itens e concatenar o resultado em uma lista. Após concluir a construção da lista converte a lista de dicionários em um dataframe do pandas e exporta o dataframe em CSV
 
 
 ```python
