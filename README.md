@@ -1,6 +1,6 @@
 # ml-challenge-python
 
-Repoitório criado para o desafio de python do mercado livre. O código abaixo foi executado no google Colab. O notebook pode ser encontrado no arquivo [ml_challenge_API.ipynb.sql](ml_challenge_API.ipynb)
+Repositório criado para o desafio de python do mercado livre. O código abaixo foi executado no google Colab. O notebook pode ser encontrado no arquivo [ml_challenge_API.ipynb.sql](ml_challenge_API.ipynb)
 
 ## 1) Percorrer uma lista de mais de 150 IDs de itens no serviço público:
 
@@ -78,6 +78,8 @@ df_item.to_csv('items.csv')
 ```
 
 ## 3) Preparar o desenho e documentação da solução
+
+O diagrama abaixo representa o fluxo do algoritmo desenvolvido para a solução
 
 ![screenshot](diagrama.png)
 
